@@ -17,10 +17,10 @@
 Foi elaborado um projeto onde possui um sistema de comentários que presta o serviço de leitura do comentário por audio.
 
 ### Interface:
-![Screenshot](inicio.png)
+![Screenshot](imagem1.jpg)
 
 ### Realizando o comentário:
-![Screenshot](consultaEspecialidade.png)
+![Screenshot](imagem2.jpg)
 
 ## Instalação
 
