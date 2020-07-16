@@ -27,7 +27,7 @@ Foi elaborado um projeto onde possui um sistema de comentários que presta o ser
 ### Banco:
 A `porta do mysql está como: 3306`, se sua porta for diferente, tem que muda-la.
 ```
-CREATE DATABSE smarkio;
+CREATE DATABASE smarkio;
 
 CREATE TABLE `comentarios` (
   `comentario_id` int(11) NOT NULL primary key auto_increment,
