@@ -1,0 +1,47 @@
+.btn-primary {
+    width: 100%;
+}
+.row{
+    width: 90%;
+}
+.container {
+        width: 100vh;
+        height: 100vh;
+        background: #EEEEEE;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+}
+body {
+   margin: 0px;
+   font-family: calibri;
+}
+h5{
+    font-weight: 700;
+}
+textarea {
+    height: 210px;
+}
+#resultado{
+    border-left: 1px solid #ccc;
+}
+
+.comentario {
+    display: flex;
+    margin-bottom: 1em;
+    align-items: top;
+}
+
+.comentario p {
+    text-align: justify;
+    width: 90%;
+    margin-right: 4%;
+    text-justify: inter-word;
+}
+#ouvir, #stop {
+    margin-top: 8px;
+    height: 35px;
+    padding-top: 5px;
+    width: 100%;
+}

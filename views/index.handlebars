@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+    <form name="form" id="form" action="salvar" method="post">
+      <div class="form-group">
+        <label><b>Comentário</b></label>
+        <textarea class="form-control" name="texto" rows="8" required></textarea>
+      </div>
+      <input type="submit" class="btn btn-primary" value="Cadastrar"/>
+      <div class="alert alert-success" style="display: none;width: 100%;margin-top: 1em;" id="result" name="{{result}}">
+        Cadastrado com sucesso!
+      </div>
+    </form>
+    </div>
+    <div class="col-sm" id="resultado">
+      <div><h5 id="titulo" style="display: none;">Comentários</h5></div>
+      <div class="alert alert-warning" style="display: none;width: 100%;margin-top: 1em;">
+        Sem Comentario Cadastrado!
+      </div>
+      {{#data}}
+      <span class="comentario">
+        <span>
+        <audio id="audios{{comentario_id}}" src="audios/audio_{{comentario_id}}.wav"></audio>
+        <p>{{texto}}</p>
+        </span>
+        <span>
+        <button type="button" onclick="Ouvir({{comentario_id}})" id="ouvir" class="btn btn-dark">Ouvir</button>
+        <button class="btn btn-danger" id="stop" onclick="Stop({{comentario_id}})">Stop</button>
+        </span>
+      </span>
+      <br/>
+      {{/data}}
+    </div>
+  </div>
+</div>
