@@ -39,9 +39,11 @@ CREATE TABLE `comentarios` (
 No terminal, só digitar a sequencia abaixo, lembrando que a `porta do localhost é: 3000`
 ```
 npm install
+```
+Continuando no terminal, para rodar a aplicação seria:
+```
 node app.js ou nodemon app.js
 ```
-
 ## Tecnologias Utilizadas 
 
 * API Text to Speech - IBM Watson
