@@ -42,7 +42,7 @@ npm install
 ```
 Continuando no terminal, para rodar a aplicação seria:
 ```
-node app.js ou nodemon app.js
+npm app.js ou nodemon app.js
 ```
 ## Tecnologias Utilizadas 
 
